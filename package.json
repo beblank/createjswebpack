@@ -1,0 +1,25 @@
+{
+  "name": "create js tutorial",
+  "version": "0.0.0",
+  "description": "create js tutorial using webpack",
+  "homepage": "https://github.com/beblank/createjswebpack",
+  "repository": {
+    "type": "git+https",
+    "url": "https://github.com/beblank/createjswebpack.git"
+  },
+  "private": true,
+  "scripts": {
+    "clean": "bundle.js",
+    "start": "webpack && http-server -p 8080",
+    "watch": "webpack-dev-server --hot --inline --config webpack.config.js"
+  },
+  "author": "Aditya Hadiwijaya",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "0.23.0",
+    "style-loader": "0.13.0"
+  },
+  "dependencies": {
+    "createjs-easeljs": "0.8.2"
+  }
+}
